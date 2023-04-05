@@ -1,5 +1,12 @@
 .App {
-  text-align: center;
+  /* text-align: center; */
+  background-color: #E5E5E5;
+  color: black;
+}
+
+.active {
+  text-decoration: #7AB259;
+  font-weight: bold;
 }
 
 .App-logo {
@@ -14,7 +21,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #FBD062;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -28,10 +35,44 @@
   color: #61dafb;
 }
 
+.Header {
+  padding-top: 5px;
+  padding-left: 48px;
+  padding-right: 48px;
+}
+
+.bann {
+  background-image: url(/src/Image/homebg.png);
+  background-position: cover;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.img3 {
+  width: 462.31px;
+  height: 332.57px;
+}
+
+.textr {
+  background-color: white;
+  width: 630px;
+}
+
+.textarea {
+  width: 630px;
+  height: 277px;
+  background-color: white;
+}
+
+.formbtn {
+  margin-right: 470px;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
